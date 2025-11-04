@@ -11,8 +11,8 @@ class Animal {
 }
 
 class Herbivore extends Animal {
-  constructor(health = 100, name, hidden = false) {
-    super(health, name);
+  constructor(name, health = 100, hidden = false) {
+    super(name, health);
     this.hidden = hidden;
   }
 
@@ -22,8 +22,8 @@ class Herbivore extends Animal {
 }
 
 class Carnivore extends Animal {
-  constructor(health = 100, name, hidden = false) {
-    super(health, name);
+  constructor(name, health = 100, hidden = false) {
+    super(name, health);
     this.hidden = hidden;
   }
 
